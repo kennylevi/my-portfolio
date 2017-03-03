@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 22, 2017, 9:27:44 AM
+    Author     : kennie
+*/
+
+@import "cssPlugins.css";
+
+@import "../../styles/fonts.css";
+
+*{
+	font-family: helvetica, 'Open Sans', sans-serif;
+}
+body{
+    height: 100%;
+}
+span a{
+	font-style: italic;
+	color: blue;
+}
+		
+#userid,#userpass{
+	height: 50px;
+	border-radius: 0px;
+	font-family: 'Open Sans'; 
+}
+#userid:focus,#userpass:focus{
+	box-shadow: none;
+        border-color: transparent;
+        background: lightskyblue;
+        color: #ffffd7;
+}
+.login{
+    background: url(../white-background.jpg);
+}
+#logo{
+    color: #fff;
+    font: 16px 'opensans', sans-serif;
+    font-weight: bold;
+}
+#panel-box .big{
+    font-size: 40px;
+}
+#panel-box .panel-primary{
+    border: 1px solid #1995dc;
+}
+#panel-box .panel-primary a{
+    color: #1995dc;
+}
+#panel-box .panel-success{
+    border: 1px solid #468847;
+}
+#panel-box .panel-success a{
+    color: #468847;
+}

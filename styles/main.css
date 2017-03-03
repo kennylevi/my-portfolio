@@ -1,0 +1,649 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 16, 2017, 5:26:59 PM
+    Author     : kennie
+*/
+
+@import "fonts.css";
+body{
+    background: #0f0f0f;
+}
+#home{
+    background: url(../img/header.jpg) no-repeat top center;
+    background-size: cover;
+    height: 800px;
+    min-height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+#nav{
+    //background: #fce9d6;
+    background: rgba(200,220,200,.1);
+    text-align: center;
+    z-index: 100;
+}
+#menuItems{
+    width: 100%;
+}
+#navItems li a i{
+    display: none;
+}
+#navWrap, #aboutnavWrap{
+    width: 85%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+#navItems li a{
+    display: block;
+    height: 50px;
+    color: #fff;
+    font-family: 'opensans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+#navItems li a:focus{
+    background: none;
+}
+#navItems li a:hover{
+    background: none;
+    border-bottom: 5px solid #a0410d; 
+}
+#navItems .selected a{
+    border-bottom: 5px solid #a0410d;
+}
+#searchNav li{
+    color: #fff;
+    font-size: 16px;
+}
+.hide{
+    display: none;
+}
+#searchBtn{
+    cursor: pointer;
+}
+#searchBtn:hover{
+    color: orangered;
+}
+#search{
+    border-radius: 0px;
+    background: rgba(200,220,200,.1);
+    border: none;
+    color: #fff; 
+}
+#search:focus{
+    box-shadow: none;
+    border-color:transparent; 
+}
+
+#homeTitlewrap{
+    width: 85%;
+    display: block;
+    vertical-align: middle;
+    margin: 10% auto;
+    padding-bottom: 30px;
+}
+#homeText h1{
+    margin: 0 auto 18px auto;
+    font: 80px 'opensans', sans-serif;
+    text-shadow: rgba(0,0,0,.6);
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: -2.0px;
+}
+#homeText span{
+    color: #a0410d;
+}
+#homeText h3{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    color: #A8A8A8;
+    font-family: "Lucida Calligraphy", sans-serif;
+    line-height: 1.8em;
+}
+#homeText h3 span{
+    color: #a0410d;
+    font: 18px "Lucida Calligraphy", sans-serif;
+}
+#homeText h3 a{
+    color: #fff;
+    text-decoration: none;
+}
+#homeText .social{
+    font-size: 25px;
+    padding: 0;
+    margin: 24px 0;
+    text-align:  center
+}
+#homeText .social li{
+   list-style: none;
+   display: inline-block;
+   padding: 8px;
+}
+#homeText .social .facebook a i{
+    border: 2px solid;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    line-height: 30px;
+    border-radius: 50%;
+    background-color: #ddd;
+    -moz-box-shadow: 0px 0px 10px #A8A8A8;
+    -webkit-box-shadow: 0px 0px 10px #A8A8A8;
+    -o-box-shadow: 0px 0px 10px #A8A8A8;
+    box-shadow: 0px 0px 10px #A8A8A8;
+}
+#homeText .social .facebook a:hover{
+    color: #5674b9;
+    text-decoration: none;
+}
+#homeText .social .twitter a i{
+    border: 2px solid;
+    padding: 8px;
+    text-decoration: none;
+    display: block;
+    line-height: 48px;
+    border-radius: 50%;
+    background-color: #ddd;
+    -moz-box-shadow: 0px 0px 10px #A8A8A8;
+    -webkit-box-shadow: 0px 0px 10px #A8A8A8;
+    -o-box-shadow: 0px 0px 10px #A8A8A8;
+    box-shadow: 0px 0px 10px #A8A8A8;
+}
+#homeText .social .twitter a:hover{
+    color: #0c95c2;
+    text-decoration: none;
+}
+#homeText .social .linkedin a i{
+    border: 2px solid;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+    line-height: 45px;
+    border-radius: 50%;
+    background-color: #ddd;
+    -moz-box-shadow: 0px 0px 10px #A8A8A8;
+    -webkit-box-shadow: 0px 0px 10px #A8A8A8;
+    -o-box-shadow: 0px 0px 10px #A8A8A8;
+    box-shadow: 0px 0px 10px #A8A8A8;
+}
+#homeText .social .linkedin a:hover{
+    color: #2b6cfb;
+    text-decoration: none;
+}
+#homeText .social .google a i{
+    border: 2px solid;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    line-height: 50px;
+    border-radius: 50%;
+    background-color: #ddd;
+    -moz-box-shadow: 0px 0px 10px #A8A8A8;
+    -webkit-box-shadow: 0px 0px 10px #A8A8A8;
+    -o-box-shadow: 0px 0px 10px #A8A8A8;
+    box-shadow: 0px 0px 10px #A8A8A8;
+}
+#homeText .social .google a:hover{
+    color: #e82e2e;
+    text-decoration: none;
+}
+#homeText .social .instagram a i{
+    border: 2px solid;
+    padding: 13px;
+    text-decoration: none;
+    display: block;
+    line-height: 42px;
+    border-radius: 50%;
+    background-color: #ddd;
+    -moz-box-shadow: 0px 0px 10px #A8A8A8;
+    -webkit-box-shadow: 0px 0px 10px #A8A8A8;
+    -o-box-shadow: 0px 0px 10px #A8A8A8;
+    box-shadow: 0px 0px 10px #A8A8A8;
+}
+#homeText .social .instagram a:hover{
+    color: #0c6f6f;
+    text-decoration: none;
+}
+hr{
+    border:0.2px dotted grey;
+    height: 0;
+    border-width: 1px 0 0;
+    clear: both;
+    margin: 3% auto;
+    width: 500px;
+}
+p{
+    margin: 0 0 30px 0;
+}
+#home .scrolldown a{
+    display: block;
+    border:solid transparent;
+    background-color: #fff;
+    padding: 0 0px 0 0;
+    text-align: center;
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    line-height: 42px;
+    height: 42px; width: 42px;
+    border-radius: 100%;
+    transition: all .3s ease-in-out;
+}
+#home .scrolldown a:hover{
+    color: #A8A8A8;
+    background-color: #2196F3; 
+}
+
+/**********about layout design*********/
+
+#about{
+    background: whitesmoke;
+    height: 820px;
+    min-height: 500px;
+    
+}
+#about #nav{
+    background: #2b2b2b;
+}
+#aboutrow1{
+    background: url(../img/bginterface.png) repeat bottom;
+    height: 820px;
+    min-height: 500px;
+    padding-bottom: 15px;
+}
+#profileWrap{
+    margin: 5% auto;
+    width: 100%;
+    padding-top: 95px;
+}
+#about .profile-pix{
+    display: block;
+    width: 50%;
+    border: 2px solid #06aae8;
+    margin: 0 auto;
+    border-radius: 100%;
+    position: relative;
+}
+#about #Title{
+    font-family: 'Lucida Calligraphy';
+    text-align: center;
+    color: #ddd;
+}
+#aboutmainWrap{
+    padding: 10px;
+}
+#aboutcol2{
+   background: whitesmoke;
+   padding-bottom: 15px;
+}
+#about h2{
+    padding-top: 90px;
+    color: #06aae8;
+    margin-bottom: 12px;
+    font: 30px 'opensans', sans-serif;
+    font-weight: bold;
+}
+.hireMe{
+    width: 80%;
+    margin: 20% auto;
+    text-align: center;
+}
+.hirebtn{
+    color: #ddd;
+    display: block;
+    //border: solid;
+    margin: 0 auto;
+    width: 150px;
+    height: 50px;
+    padding: 5px;
+    line-height: 35px;
+    background: #06aae8;
+}
+.hirebtn:hover{
+    text-decoration: none;
+    color: #ddd;
+}
+#about #navItems .selected a{
+    border-bottom: 5px solid #06aae8;
+}
+#about #navItems li a:active{
+    background: none;
+}
+#about #navItems li a:hover{
+    border-bottom: 5px solid #06aae8;
+}
+#about h6{
+    line-height: 35px;
+    font-family: 'opensans', sans-serif;
+    font-size: 14px;
+}
+#about h6 a{
+    color: #06aae8;
+    font-size: 16px;
+}
+.resume, .skill{
+    display: block;
+    border-left: 5px solid #06aae8;
+}
+.resume h3, .skill h3{
+    color: #222;
+    font-family: 'opensans';
+    padding-left: 8px;
+    font-weight: bold;
+}
+.resumeMain, .skillmain{
+    padding-left: 30px;
+    padding-top: 5px;
+}
+.resumeMain h5{
+    font-weight: bold;
+}
+.resumeMain .degree{
+    //line-height: 1px;
+    font-family: 'Lucida Calligraphy';
+}
+.resumeMain .degree span{
+    font-family: helvetica, sans-serif;
+    color: darkgray;
+}
+
+.skillmain .bars{
+    height: 35px;
+    background: #ccc;
+}
+.skillmain .bar-expand{
+    position: absolute;
+    background: #313131;
+    width: 80%;
+    height: 35px;
+    color: #ddd;
+    text-align: center;
+}
+.skillmain .bar-expand span, .skillmain .bar-expand2 span, .skillmain .bar-expand3 span, .skillmain .bar-expand4 span{
+    padding: 5px;
+    line-height: 30px;
+}
+.skillmain .bar-expand2{
+    position: absolute;
+    background: #313131;
+    width: 90%;
+    height: 35px;
+    color: #ddd;
+    text-align: center;
+    -webkit-transition: width 1s linear;
+    transition: width 1s linear;
+}
+.skillmain .bar-expand3{
+    position: absolute;
+    background: #313131;
+    width: 60%;
+    height: 35px;
+    color: #ddd;
+    text-align: center;
+}
+.skillmain .bar-expand4{
+    position: absolute;
+    background: #313131;
+    width: 70%;
+    height: 35px;
+    color: #ddd;
+    text-align: center;
+}
+.col-md-6 b{
+    color: #06aae8;
+}
+#about #searchBtn:hover{
+    color: #06aae8;
+}
+.skillmain #secondrow{
+    margin-top: 3%;
+}
+#about .scrolldown a{
+    display: block;
+    border:solid transparent;
+    background-color: #06aae8;
+    padding: 0 0px 0 0;
+    text-align: center;
+    position: fixed;
+    bottom: 33%;
+    left: 95%;
+    line-height: 42px;
+    height: 42px; width: 42px;
+    border-radius: 100%;
+    transition: all .3s ease-in-out;
+    color: #ddd;
+}
+#about .scrolldown a:hover{
+    color: #A8A8A8;
+    background-color: #2196F3; 
+}
+
+
+/**********services layout design*********/
+
+#service{
+    background: url(../img/bg.gif);
+    height: 800px;
+    min-height: 500px;
+    
+}
+#service #nav{
+    //background: #fce9d6;
+    background: #2b2b2b;
+}
+#service #navItems .selected a{
+    border-bottom: 5px solid #82ca9c;
+}
+#service #navItems li a:active{
+    background: none;
+}
+#service #navItems li a:hover{
+    border-bottom: 5px solid #82ca9c;
+}
+#service #searchBtn:hover{
+    color: #82ca9c;
+}
+#serviceCon{
+    margin-top: 5%;
+}
+#service #search{
+    background: rgba(200,220,200,.8);
+}
+.head{
+    background: rgba(200,220,200,.8);
+}
+#service h2{
+    color: #82ca9c;
+    font-weight: bold;
+}
+
+
+/**********contact layout design***********/
+#contact{
+    background: #00bcd4;
+    height: 800px;
+    min-height: 500px;  
+   overflow: hidden;
+}
+#contact #nav{
+    background: #fafafa;
+    box-shadow: 0 1px 6px rgba(0,0,0,.35);
+}
+#contact #navItems li a{
+    display: block;
+    height: 50px;
+    color: #222;
+    font-family: 'opensans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+#contact #navItems li a:focus{
+    background: none;
+}
+#contact #navItems li a:hover{
+    background: none;
+    border-bottom: 5px solid #00bdc4; 
+}
+#contact #navItems .selected a{
+    border-bottom: 5px solid #00bdc4;
+}
+#contact #searchNav li{
+    color: #222;
+    font-size: 16px;
+}
+#contact #searchBtn:hover{
+    color: #00bdc4;
+}
+#contact #search{
+    border-radius: 0px;
+    background: rgba(200,220,200,.8);
+    border: none;
+    color: darkslategrey;    
+}
+#contact #search:focus{
+    box-shadow: none;
+    border-color:transparent; 
+}
+#contact .contactWrap{
+    margin: 5% auto;
+}
+.contactWrap h1{
+    font-family: 'opensans';
+    color: #fff;
+    line-height: 1.1;
+    //padding-top: -10px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.contactWrap p, address{
+    color: #fff;
+    font-family: 'opensans', sans-serif;
+}
+.contactWrap h4{
+    color: #fff;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.w3-card-4{
+    background: #fafafa;
+}
+.contactWrap .contactForm{
+    padding: 10px;
+    margin: 0 auto;
+    width: 70%;
+}
+.contactWrap .require{
+    color: red;
+}
+#contactName, #contactEmail, #contactSubject{
+    line-height: 24px;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    height: 50px;
+    border-radius: 0;
+     background: rgba(200,220,200,.8);
+}
+#contactMessage{
+    line-height: 24px;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    height: 150px;
+    border-radius: 0;
+    //background-color: #dddcdc;
+     background: rgba(200,220,200,.8);
+}
+#contactName:focus, #contactEmail:focus, #contactSubject:focus, #contactMessage:focus{
+    box-shadow: none;
+    background: #00bcd4;
+    color: #ddd;
+}
+#contactbtn{
+    height: 45px;
+    background: #00bcd4;
+    color: #dddcdc;
+}
+label.error{
+    color: #c00;
+    font-variant: small-caps;
+}
+#contact .scrolldown a{
+    display: block;
+    border:solid transparent;
+    background-color: #ddd;
+    padding: 0 0px 0 0;
+    text-align: center;
+    position: fixed;
+    bottom: 33%;
+    right: 95%;
+    line-height: 42px;
+    height: 42px; width: 42px;
+    border-radius: 100%;
+    transition: all .3s ease-in-out;
+    color: #06aae8;
+}
+#contact #loader{
+    display: none;
+}
+
+
+/**************portfolio css design ***********************/
+#portfolio{
+    background: #ced7df;
+    height: 800px;
+    min-height: 500px;  
+   overflow: hidden;
+}
+#portfolio #nav{
+    background: #222;
+    box-shadow: 0 1px 6px rgba(0,0,0,.35);
+}
+#portfolio #navItems .selected a{
+    border-bottom: 5px solid #255f7e;
+}
+#portfolio #navItems li a:hover{
+    background: none;
+    border-bottom: 5px solid #255f7e; 
+}
+#portfolio #searchBtn:hover{
+    color: #255f7e;
+}
+#portfolio #search{
+    border-radius: 0px;
+    background: #ced7df;
+    border: none;
+    color: #222;
+}
+#portCon{
+    margin-top: 5%;
+}
+#portCon h2{
+    color: #255f7e;
+    font-weight: bold;
+    text-align: center;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+#gallaryWrapper #secondrow{
+    margin-top: 1%;
+}
+#gallaryWrapper  a img{
+    border: 3px solid #255f7e;
+}
+#gallaryWrapper  a img:hover{
+    padding: 10px;
+    box-shadow: 5px 2px 2px 3px #222;
+    -moz-box-shadow:5px 2px 2px 3px #222;
+   -webkit-box-shadow:5px 2px 2px 3px #222; 
+}

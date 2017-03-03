@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Welcome to Kenny Home-page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="styles/cssPlugins.css" type="text/css" />
+        <link rel="stylesheet" href="styles/main.css" type="text/css" />
+        <link rel="stylesheet" href="styles/layout.css" type="text/css" />
+        
+        <script src="scripts/jquery lib v2.2.5.js"></script> 
+        <script src="scripts/initAll.js"></script>
+        
+    </head>
+    <body>
+        <div id="home">
+            <div class="navbar navbar-fixed-top" id="nav">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menuItems">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar w3-orange"></span>
+                            <span class="icon-bar w3-orange"></span>
+                            <span class="icon-bar w3-orange"></span>
+                        </button> 
+                    </div>
+                    <div class="navbar-collapse collapse" id="menuItems">
+                        <div id="navWrap">
+                            <ul class="nav navbar-nav" id="navItems">
+                                <li class="selected"><a href="#home"><i class="fa fa-home"></i> HOME</a></li>
+                                <li><a href="about.html"><i class="fa fa-user"></i> ABOUT ME</a></li>
+                                <li><a href="services.html"><i class="fa fa-list"></i> SERVICES</a></li>
+                                <li><a href="portfolio.html"><i class="fa fa-briefcase"></i> PORTFOLIO</a></li>
+                                <li><a href="contact.php"><i class="fa fa-envelope"></i> CONTACT ME</a></li>
+                            </ul> 
+                            <ul class="nav navbar-right" id="searchNav">
+                                <li>
+                                    <form action="" method="get" class="navbar-form" role="search">
+                                    <div class="form-group">
+                                      <span class="fa fa-search" id="searchBtn"></span> 
+                                            <input type="text" class="form-control hide" placeholder="Search..." id="search">
+                                    </div>
+                                    </form>
+                                </li>    
+                            </ul>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div id="homeTitlewrap" class="w3-animate-zoom">
+                    <div id="homeText">
+                        <h1>Hello! I'm <span>Kenny Opara</span></h1>
+                        <h3>I'm a <span>Front</span> and <span>Backend WebDeveloper</span>, Creating a <span>Dynamic UI</span> Webpages is all i know. please <a href="#about">click here to know more about me</a>. welcome once again..</h3>
+                        <hr>
+                        <ul class="social">
+                            <li class="facebook"><a href="http://www.facebook.com"><i class="fa fa-facebook fa-2x"></i></a></li>
+                            <li class="twitter"><a href="http://www.twitter.com"><i class="fa fa-twitter fa-2x"></i></a></li>
+                            <li class="linkedin"><a href="http://www.linkedin.com"><i class="fa fa-linkedin fa-2x"></i></a></li>
+                            <li class="google"><a href="http://www.googleplus.com"><i class="fa fa-google-plus fa-2x"></i></a></li>
+                            <li class="instagram"><a href="http://www.instagram.com"><i class="fa fa-instagram fa-2x"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p class="scrolldown"><a href="about.html"><i class="fa fa-chevron-right"></i></a></p>
+        </div>
+         <!--home section End-->
+         <script src="scripts/bootstrap.js"></script>
+    </body>
+</html>

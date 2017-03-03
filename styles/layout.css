@@ -1,0 +1,388 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 17, 2017, 4:22:47 PM
+    Author     : kennie
+*/
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width:320px){
+     #nav{
+         background: #0f0f0f;
+     }  
+     #navItems li a i{
+        display:inline;
+    }
+    #homeTitlewrap{
+        margin: 15% auto;
+        width: 100%;
+        padding-bottom:5px;
+        
+    }
+    #homeText h1{
+        font-size: 40px;
+    }
+    #homeText h3{
+        width: 100%;
+        line-height: normal;
+        font-size: 15px;
+    }
+    #homeText .social{
+        font-size: 17px;
+        margin: 18px 0;
+    }
+    #homeText .social li{
+        padding: 5px;
+        line-height: none;
+    }
+    #navItems li a{
+        border-bottom: 1px dotted #a1a1a1;
+    }
+    #navItems li:last-child a, #navItems li:last-child a:hover{
+        border-bottom: none;
+    }
+    #navItems li a:hover{
+        border-bottom: 1px dotted #a1a1a1;
+        color: #a0410d;
+    }
+    #navItems .selected a{
+        color: #a0410d;
+        border-bottom: 1px dotted #a1a1a1;
+    }
+    hr{
+        width: 200px;
+    }
+    #home .scrolldown a, #about .scrolldown a{
+        display: none;
+    }
+    #home #searchNav li{
+        display: none;
+    }
+    
+    /*****about layout******/
+    #about{
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    #about #nav{
+        background: #0f0f0f;
+    }
+    #about h2{
+        padding-top: 10px;
+    }
+    #about #navItems li a{
+        border-bottom: 1px dotted #a1a1a1;
+        color: #ddd;
+    } 
+    #about #navItems li a:hover{
+        color: #06aae8;
+        border-bottom: 1px dotted #a1a1a1;
+    }
+    #about #navItems li:last-child a, #about #navItems li:last-child a:hover{
+        border-bottom: none;
+    }
+    #about #navItems .selected a{
+        color: #06aae8;
+        border-bottom: 1px dotted #06aae8;
+    }
+    #about #searchNav li{
+        display: none;
+    }
+    
+    
+    /*******services layout***************/
+     #service{
+        /*overflow: scroll;*/
+    }
+    #servic #navItems li a{
+        border-bottom: 1px dotted #a1a1a1;
+        color: #ddd;
+    } 
+    #service #aboutnavWrap  #navItems li a:hover{
+        border-bottom: 1px dotted #a1a1a1;
+        color: #82ca9c;
+    }
+     #service #navItems .selected a{
+        color:#82ca9c;
+        border-bottom: 1px dotted #82ca9c;
+    }
+    #service #searchNav li{
+        display: none;
+    }
+    #serviceCon{
+        margin-top: 18%;
+    }
+    
+    
+    /*******contact layout***************/
+    #contact #nav{
+         background: #0f0f0f;
+         //background: rgba(250,220,200,8);
+    }
+    #contact #aboutnavWrap #navItems li a{
+        color: #ddd;
+    }
+    #contact #aboutnavWrap #navItems .selected a{
+        color: #a0410d;
+        border-bottom: 1px dotted #a1a1a1;
+    }
+    #contact #navItems li:last-child a, #navItems li:last-child a:hover{
+        border-bottom: none;
+    }
+   #contact #navItems li a:hover{
+        border-bottom: 1px dotted #a1a1a1;
+        color: #a0410d;
+    }
+    #contact #searchNav li{
+        display: none;
+    }
+    #contact .contactWrap{
+        margin: 17% auto;
+    }
+    .contactWrap h4{
+        margin-bottom: -5px;
+    }
+    #contact{
+        overflow: scroll;
+    }
+    .contactWrap .contactForm{
+        width: 90%;
+    }
+    #contact .scrolldown a{
+        display: none;
+    }
+    
+     /*******portfolio layout***************/
+    #portfolio{
+        overflow: scroll;
+    }
+    #portfolio #nav{
+         background: #0f0f0f;
+         //background: rgba(250,220,200,8);
+    }
+    #portfolio #navItems li a{
+        border-bottom: 1px dotted #a1a1a1;
+        color: #ddd;
+    } 
+    #portfolio #aboutnavWrap  #navItems li a:hover{
+        border-bottom: 1px dotted #a1a1a1;
+        color: #255f7e;
+    }
+    #portfolio #navItems li:last-child a, #navItems li:last-child a:hover{
+        border-bottom: none;
+    }
+    #portfolio #navItems .selected a{
+        color: #255f7e;
+        border-bottom: 1px dotted #255f7e;
+    }
+    #portfolio #searchNav li{
+        display: none;
+    }
+    #portCon{
+        margin-top: 18%;
+    }
+    #gallaryWrapper #secondrow{
+        margin-top: 1%;
+    }
+    #gallaryWrapper  a img{
+        margin-top: 3%;
+    }
+}
+
+
+
+@media only screen and (min-width:321px) and (max-width: 767px) {
+    #nav{
+         background: #0f0f0f;
+         //background: rgba(250,220,200,8);
+    }
+    #navItems li a i{
+    display: inline;
+    }
+    #homeTitlewrap{
+        margin: 15% auto;
+        width: 100%;
+        padding-bottom:5px;
+        
+    }
+    #homeText h1{
+        font-size: 50px;
+    }
+    #homeText h3{
+        width: 100%;
+        line-height: normal;
+        font-size: 16px;
+    }
+    #homeText h3 a{
+        font-size: 16px;
+    }
+    #homeText .social{
+        font-size: 17px;
+        margin: 18px 0;
+    }
+    #homeText .social li{
+        padding: 5px;
+        line-height: none;
+    }
+    #navItems li a{
+        border-bottom: 1px dotted #a1a1a1;
+    }
+    #navItems li:last-child a, #navItems li:last-child a:hover{
+        border-bottom: none;
+    }
+    #navItems li a:hover{
+        border-bottom: 1px dotted #a1a1a1;
+        color: #a0410d;
+    }
+    #navItems .selected a{
+        color: #a0410d;
+        border-bottom: 1px dotted #a1a1a1;
+    }
+    hr{
+        width: 250px;
+    }
+    #home .scrolldown a{
+        display: none;
+    }
+    #home #searchNav li{
+        display: none;
+    }
+    
+    /*********about layout************/
+    #about{
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    #about #nav{
+        background: #0f0f0f;
+    }
+    #about h2{
+        padding-top: 10px;
+    }
+    #about #navItems li a{
+        border-bottom: 1px dotted #a1a1a1;
+        color: #ddd;
+    } 
+    #about #navItems li a:hover{
+        color:#06aae8;
+        border-bottom: 1px dotted #a1a1a1;
+    }
+    #about #navItems li:last-child a, #about #navItems li:last-child a:hover{
+        border-bottom: none;
+    }
+    #about #navItems .selected a{
+        color: #06aae8;
+        border-bottom: 1px dotted #06aae8;
+    }
+    #about #searchNav li{
+        display: none;
+    }
+    #about .scrolldown a{
+        display: none;
+    }
+    
+   /*******services layout***************/
+     #service{
+        /*overflow: scroll;*/
+    }
+    #servic #navItems li a{
+        border-bottom: 1px dotted #a1a1a1;
+        color: #ddd;
+    } 
+    #service #aboutnavWrap  #navItems li a:hover{
+        border-bottom: 1px dotted #a1a1a1;
+        color: #82ca9c;
+    }
+     #service #navItems .selected a{
+        color:#82ca9c;
+        border-bottom: 1px dotted #82ca9c;
+    }
+    #service #searchNav li{
+        display: none;
+    }
+    #serviceCon{
+        margin-top: 15%;
+    }
+    
+    
+    /*******contact layout***************/
+    #contact{
+        overflow: scroll;
+    }
+    #contact #nav{
+         background: #0f0f0f;
+         //background: rgba(250,220,200,8);
+    }
+    #contact #navItems li a{
+        border-bottom: 1px dotted #a1a1a1;
+        color: #ddd;
+    } 
+    #contact #aboutnavWrap  #navItems li a:hover{
+        border-bottom: 1px dotted #a1a1a1;
+        color: #06aae8;
+    }
+     #contact #navItems li:last-child a, #navItems li:last-child a:hover{
+        border-bottom: none;
+    }
+    #contact #navItems .selected a{
+        color:#06aae8;
+        border-bottom: 1px dotted #a1a1a1;
+    }
+    #contact #searchNav li{
+        display: none;
+    }
+    #contact .contactWrap{
+        margin: 15% auto;
+        overflow: scroll;
+    }
+    .contactWrap h4{
+        margin-bottom: -6px;
+    }
+    .contactWrap p, address{
+        line-height: 18px;
+    }
+    .contactWrap .contactForm{
+        width: 90%;
+    }
+    #contact .scrolldown a{
+        display: none;
+    }
+    
+    /*******portfolio layout***************/
+    #portfolio{
+        overflow: scroll;
+    }
+    #portfolio #nav{
+         background: #0f0f0f;
+         //background: rgba(250,220,200,8);
+    }
+    #portfolio #navItems li a{
+        border-bottom: 1px dotted #a1a1a1;
+        color: #ddd;
+    } 
+    #portfolio #aboutnavWrap  #navItems li a:hover{
+        border-bottom: 1px dotted #a1a1a1;
+        color: #255f7e;
+    }
+    #portfolio #navItems li:last-child a, #navItems li:last-child a:hover{
+        border-bottom: none;
+    }
+    #portfolio #navItems .selected a{
+        color: #255f7e;
+        border-bottom: 1px dotted #255f7e;
+    }
+    #portfolio #searchNav li{
+        display: none;
+    }
+    #portCon{
+        margin-top: 15%;
+    }
+    #gallaryWrapper #secondrow{
+        margin-top: 1%;
+    }
+    #gallaryWrapper  a img{
+        margin-top: 3%;
+    }
+}

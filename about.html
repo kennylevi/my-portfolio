@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>About Me</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="styles/cssPlugins.css" type="text/css" />
+        <link rel="stylesheet" href="styles/main.css" type="text/css" />
+        <link rel="stylesheet" href="styles/layout.css" type="text/css" />
+        
+        <script src="scripts/jquery lib v2.2.5.js"></script> 
+        <script src="scripts/initAll.js"></script>
+        
+        
+    </head>
+    <body>
+        <div id="about" class="w3-animate-left">
+            <div class="navbar navbar-fixed-top" id="nav">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menuItems">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar" style="background: #06aae8;"></span>
+                            <span class="icon-bar" style="background: #06aae8;"></span>
+                            <span class="icon-bar" style="background: #06aae8;"></span>
+                            <span class="icon-bar" style="background: #06aae8;"></span>
+                        </button> 
+                    </div>
+                    <div class="navbar-collapse collapse" id="menuItems">
+                        <div id="aboutnavWrap">
+                            <ul class="nav navbar-nav" id="navItems">
+                                <li><a href="index.html"><i class="fa fa-home"></i> HOME</a></li>
+                                <li class="selected"><a href="#about"><i class="fa fa-user"></i> ABOUT ME</a></li>
+                                <li><a href="services.html"><i class="fa fa-list"></i> SERVICES</a></li>
+                                <li><a href="portfolio.html"><i class="fa fa-briefcase"></i> PORTFOLIO</a></li>
+                                <li><a href="contact.php"><i class="fa fa-envelope"></i> CONTACT ME</a></li>
+                            </ul> 
+                            <ul class="nav navbar-right" id="searchNav">
+                                <li>
+                                    <form action="" method="get" class="navbar-form" role="search">
+                                    <div class="form-group">
+                                      <span class="fa fa-search" id="searchBtn"></span>  
+                                      <input type="text" class="form-control hide" placeholder="Search..." id="search">
+                                    </div>
+                                    </form>
+                                </li>    
+                            </ul>
+                        </div>    
+                    </div>
+                </div>
+            </div> 
+            
+         <!--About section start-->
+         <section id="aboutWrap">
+             <div class="row">
+                 <div class="col-sm-3 col-md-4 col-lg-4" id="aboutrow1">
+                     <div class="rowWrap"> 
+                        <div id="profileWrap">
+                            <img class="profile-pix" src="img/profilepic.jpg" alt="profile">
+                            <p id="Title">you are welcome to my website, thanks for visiting</p>
+                            
+                            <div class="hireMe">
+                                <a class="btn w3-ripple hirebtn" href="contact.html"><i class="fa fa-paper-plane-o"></i>  &nbsp;HIRE ME</a>
+                            </div>
+                        </div>
+                     </div>    
+                 </div>
+                 <div class="col-sm-9 col-md-8 col-lg-8" id="aboutcol2">
+                     <div id="aboutmainWrap">
+                         <h2>About Me</h2>
+                         <h6>My name is Kenny Chima Opara, i'm 24 years old, was born and based in Lagos Nigeria. I started training my self as a front end developer back in 2014, where i built some mini front end designs, sold it out as an amateur frameworks or templates for student project works and so on to students
+                         in my school, so from there i started grooming my self to be an expert in front end ui designs and also knowing much of backends developments. In 2016 i started developing professionally, i've not actually done too many professional work 
+                         but you can check this out. <a href="portfolio.html">click here</a> to view some of my works. you can hire me for any web-site development or designs. i also design a mobile friendly web-pages, that will be 100% responsive to any screen you're using. Creativity is all about me, click the hire me button to get in touch with me. once again thanks for visiting my page.
+                      
+                         </h6>
+                         <div class="resume">
+                             <h3>Resume</h3>
+                         </div>
+                         <div class="resumeMain">
+                             <h5>Education</h5>
+                             <p>Rufus Giwa Polytechnic Owo.</p>
+                             <p class="degree">O.N.D. Degree in Computer Science<b>.</b> <span><em>2016</em></span></p>
+                         </div>
+                         <div class="skill">
+                             <h3>Skills</h3>
+                         </div>
+                         <div class="skillmain">
+                             <div class="row">
+                                 <div class="col-md-6"><b>HTML</b>
+                                     <div class="bars">
+                                         <div class="bar-expand"><span>80%</span></div>
+                                     </div>
+                                 </div>
+                                 <div class="col-md-6"><b>CSS</b>
+                                     <div class="bars">
+                                        <div class="bar-expand2"><span>90%</span></div> 
+                                     </div>
+                                 </div>
+                             </div>
+                             <div class="row" id="secondrow">
+                                 <div class="col-md-6"><b>JAVASCRIPTS / J-QUERY</b>
+                                     <div class="bars">
+                                         <div class="bar-expand3"><span>60%</span></div>
+                                     </div>     
+                                 </div>
+                                 <div class="col-md-6"><b>PHP / MYSQL</b>
+                                     <div class="bars">
+                                         <div class="bar-expand4"><span>70%</span></div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     
+                 </div>
+             </div>
+             
+            <p class="scrolldown"><a href="services.html"><i class="fa fa-chevron-right"></i></a></p>
+         </section>  
+        <script src="scripts/bootstrap.js"></script>
+        </div>    
+    </body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Personal Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="styles/cssPlugins.css" type="text/css" />
+        <link rel="stylesheet" href="styles/main.css" type="text/css" />
+        <link rel="stylesheet" href="styles/layout.css" type="text/css" />
+        <link rel="stylesheet" href="styles/lightbox.css" type="text/css" />
+        
+        <script src="scripts/jquery lib v2.2.5.js"></script> 
+        <script src="scripts/initAll.js"></script>
+    </head>
+    <body>
+        <div id="portfolio" class="w3-animate-left">
+            <div class="navbar navbar-fixed-top" id="nav">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menuItems">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar" style="background: #255f7e"></span>
+                            <span class="icon-bar" style="background: #255f7e"></span>
+                            <span class="icon-bar" style="background: #255f7e"></span>
+                            <span class="icon-bar" style="background: #255f7e"></span>
+                        </button> 
+                    </div>
+                    <div class="navbar-collapse collapse" id="menuItems">
+                        <div id="aboutnavWrap">
+                            <ul class="nav navbar-nav" id="navItems">
+                                <li><a href="index.html"><i class="fa fa-home"></i> HOME</a></li>
+                                <li><a href="about.html"><i class="fa fa-user"></i> ABOUT ME</a></li>
+                                <li><a href="services.html"><i class="fa fa-list"></i> SERVICES</a></li>
+                                <li  class="selected"><a href="#portfolio"><i class="fa fa-briefcase"></i> PORTFOLIO</a></li>
+                                <li><a href="contact.php"><i class="fa fa-envelope"></i> CONTACT ME</a></li>
+                            </ul> 
+                            <ul class="nav navbar-right" id="searchNav">
+                                <li>
+                                    <form class="navbar-form" role="search">
+                                    <div class="form-group">
+                                      <span class="fa fa-search" id="searchBtn"></span>  
+                                      <input type="text" class="form-control hide" placeholder="Search..." id="search">
+                                      
+                                    </div>
+                                    </form>
+                                </li>    
+                            </ul>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div id="portCon">
+                    <div class="row">
+                        <div class="col-md-2 col-lg-2">
+                            <h2>My Portfolio</h2>
+                        </div>
+                        <div class="col-md-10 col-lg-10">
+                            <div id="mainCon">
+                                <ol class="breadcrumb">
+                                    <li>check out the gallery for some of my works</li>
+                                </ol>
+                                    <div id="gallaryWrapper">
+                                        <div class="row">
+                                            <div class="col-md-4 col-sm-4">
+                                                <a href="img/gallery/modal1.jpg" data-title="A simple blog" data-lightbox="vacation">
+                                                    <img src="img/gallery/modal1.jpg" alt="blog" class="img-thumbnail img-responsive"> 
+                                                </a>
+                                            </div>
+                                            <div class="col-md-4 col-sm-4">
+                                                <a href="img/gallery/modal2.jpg" data-title="A Facebook like log in and Registration page" data-lightbox="vacation">
+                                                    <img src="img/gallery/modal2.jpg" alt="login/register" class="img-thumbnail img-responsive"> 
+                                                </a>
+                                            </div>
+                                            <div class="col-md-4 col-sm-4">
+                                                <a href="img/gallery/modal3.jpg" data-title="simple fod ordering system" data-lightbox="vacation">
+                                                    <img src="img/gallery/modal3.jpg" alt="login/register" class="img-thumbnail img-responsive"> 
+                                                </a>
+                                            </div>
+                                        </div> <!--first row end----->
+                                        
+                                        <div class="row" id="secondrow"><!----second row begins------->
+                                            <div class="col-md-4 col-sm-4">
+                                                <a href="img/gallery/modal4.jpg" data-title="stylish login page" data-lightbox="vacation">
+                                                    <img src="img/gallery/modal4.jpg" alt="login/register" class="img-thumbnail img-responsive"> 
+                                                </a>
+                                            </div>
+                                            <div class="col-md-4 col-sm-4">
+                                                <a href="img/gallery/modal5.jpg" data-title="Admin Control-panel Dashboard" data-lightbox="vacation">
+                                                    <img src="img/gallery/modal5.jpg" alt="login/register" class="img-thumbnail"> 
+                                                </a>
+                                            </div>
+                                            <div class="col-md-4 col-sm-4">
+                                                <a href="img/gallery/modal6.jpg" data-title="well styled simple page" data-lightbox="vacation">
+                                                    <img src="img/gallery/modal6.jpg" alt="login/register" class="img-thumbnail img-responsive"> 
+                                                </a>
+                                            </div>  
+                                        </div>
+                                    </div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>    
+            </div>
+                
+        </div>
+        
+        
+        <script src="scripts/bootstrap.js"></script>
+        <script src="scripts/lightbox.min.js"></script>
+    </body>
+</html>

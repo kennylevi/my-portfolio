@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 16, 2017, 5:17:17 PM
+    Author     : kennie
+*/
+@font-face{
+	font-family: 'fontawesome';
+		src:	url(../fonts/fontawesome-webfont.woff),
+				 url(../fonts/fontawesome-webfont.woff2),
+				 url(../fonts/fontawesome-webfont.ttf);
+}
+@font-face{				 
+	font-family: 'opensans';
+	 src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+
+
+@font-face{
+	font-family: 'fontawesome';
+		src:	url(../../fonts/fontawesome-webfont.woff),
+				 url(../fonts/fontawesome-webfont.woff2),
+				 url(../fonts/fontawesome-webfont.ttf);
+}
+@font-face{				 
+	font-family: 'opensans';
+	 src: url(../../fonts/OpenSans-Regular.ttf);
+}
